@@ -1,9 +1,55 @@
 {
-  "posts": {
-    "1": "askdnalksfnlaf",
-    "2": "askdnalksfnlaf",
-    "3": "askdnalksfnlaf",
-    "4": "askdnalksfnlaf",
-    "5": "askdnalksfnlaf"
+  "questions": [
+    {
+      "question": "Pick some food", 
+      "answers": [
+        {"20": "caesar salad"},
+        {"15": "nuggets"},
+        {"10": "burger"},
+        {"5": "chicken sandwich"}
+      ]
+    },
+    {
+      "question": "Pick a healthy choice", 
+      "answers": [
+        {"20": "fruit"},
+        {"15": "parfait"},
+        {"10": "salad"},
+        {"5": "pasta salad"}
+      ]
+    },
+    {
+      "question": "Pick a movie snack", 
+      "answers": [
+        {"20": "M&M’s"},
+        {"15": "caramel popcorn"},
+        {"10": "traditional popcorn"},
+        {"5": "ice cream"}
+      ]
+    },
+    {
+      "question": "Pick a fast-food spot", 
+      "answers": [
+        {"20": "Dunkin’ Donuts"},
+        {"15": "Wendy’s"},
+        {"10": "Burger King"},
+        {"5": "McDonald’s"}
+      ]
+    },
+    {
+      "question": "Pick some more food", 
+      "answers": [
+        {"20": "pasta"},
+        {"15": "chicken"},
+        {"10": "sandwich"},
+        {"5": "pizza"}
+      ]
+    }
+  ],
+  "results": {
+    "stern": {"score": 100, "text": "You’re a very serious person!"},
+    "funny": {"score": 75, "text": "You have a wicked sense of humour!"},
+    "outgoing": {"score": 50, "text": "You’re a perfect mix of funny, chill, and intelligence"},
+    "shy": {"score": 25, "text": "You’re shy and reserved!"}
   }
 }
