@@ -3,46 +3,46 @@
     {
       "question": "Pick some food", 
       "answers": [
-        {"20": "caesar salad"},
-        {"15": "nuggets"},
-        {"10": "burger"},
-        {"5": "chicken sandwich"}
+        {"score" :"20", "text": "caesar salad"},
+        {"score" :"15", "text": "nuggets"},
+        {"score" :"10", "text": "burger"},
+        {"score" :"5", "text": "chicken sandwich"}
       ]
     },
     {
       "question": "Pick a healthy choice", 
       "answers": [
-        {"20": "fruit"},
-        {"15": "parfait"},
-        {"10": "salad"},
-        {"5": "pasta salad"}
+        {"score": "20", "text": "fruit"},
+        {"score": "15", "text": "parfait"},
+        {"score": "10", "text": "salad"},
+        {"score": "5", "text": "pasta salad"}
       ]
     },
     {
       "question": "Pick a movie snack", 
       "answers": [
-        {"20": "M&M’s"},
-        {"15": "caramel popcorn"},
-        {"10": "traditional popcorn"},
-        {"5": "ice cream"}
+        {"score": "20", "text": "M&M’s"},
+        {"score": "15", "text": "caramel popcorn"},
+        {"score": "10", "text": "traditional popcorn"},
+        {"score": "5", "text": "ice cream"}
       ]
     },
     {
       "question": "Pick a fast-food spot", 
       "answers": [
-        {"20": "Dunkin’ Donuts"},
-        {"15": "Wendy’s"},
-        {"10": "Burger King"},
-        {"5": "McDonald’s"}
+        {"score": "20", "text": "Dunkin’ Donuts"},
+        {"score": "15", "text": "Wendy’s"},
+        {"score": "10", "text": "Burger King"},
+        {"score": "5", "text": "McDonald’s"}
       ]
     },
     {
       "question": "Pick some more food", 
       "answers": [
-        {"20": "pasta"},
-        {"15": "chicken"},
-        {"10": "sandwich"},
-        {"5": "pizza"}
+        {"score": "20", "text": "pasta"},
+        {"score": "15", "text": "chicken"},
+        {"score": "10", "text": "sandwich"},
+        {"score": "5", "text": "pizza"}
       ]
     }
   ],
