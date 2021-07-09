@@ -52,9 +52,9 @@
     }
   ],
   "results": {
-    "stern": {"score": 100, "text": "You’re a very serious person!"},
-    "funny": {"score": 75, "text": "You have a wicked sense of humour!"},
-    "outgoing": {"score": 50, "text": "You’re a perfect mix of funny, chill, and intelligence"},
-    "shy": {"score": 25, "text": "You’re shy and reserved!"}
+    "100": {"result": "stern", "text": "You’re a very serious person!"},
+    "75": {"result": "funny", "text": "You have a wicked sense of humour!"},
+    "50": {"result": "outgoing", "text": "You’re a perfect mix of funny, chill, and intelligence"},
+    "25": {"result": "shy", "text": "You’re shy and reserved!"}
   }
 }
