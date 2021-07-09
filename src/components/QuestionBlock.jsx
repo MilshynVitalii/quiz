@@ -38,7 +38,7 @@ function QuestionBlock({questionsLength}) {
     <div className="question-block">
       <h1 className="title">{questionsData.question}</h1>
       <div className="steps-count">{`(${id}/${questionsLength})`}</div>
-      <AswersBlock answers={questionsData.answers} id={answerID} score={score} onClick={onClick} total={total}/>
+      <AswersBlock answers={questionsData.answers} id={answerID} onClick={onClick}/>
       {
         id < questionsLength &&
         <Link
