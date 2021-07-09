@@ -15,7 +15,7 @@ function QuestionBlock({questionsLength}) {
   const {id} = useParams();
   const [questionsData, setQuestionsData] = React.useState({});
   const dispatch = useDispatch();
-  const {answerID, score, total} = useSelector((answer) => answer);
+  const {answerID, score} = useSelector((answer) => answer);
 
   React.useEffect(() => {
     fetch(`https://my-json-server.typicode.com/milshynvitalii/quiz/questions/${id}`)
