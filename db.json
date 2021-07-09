@@ -51,10 +51,10 @@
       ]
     }
   ],
-  "results": {
-    "100": {"result": "stern", "text": "You’re a very serious person!"},
-    "75": {"result": "funny", "text": "You have a wicked sense of humour!"},
-    "50": {"result": "outgoing", "text": "You’re a perfect mix of funny, chill, and intelligence"},
-    "25": {"result": "shy", "text": "You’re shy and reserved!"}
-  }
+  "results": [
+    {"id": 100, "result": "stern", "text": "You’re a very serious person!"},
+    {"id": 75, "result": "funny", "text": "You have a wicked sense of humour!"},
+    {"id": 50, "result": "outgoing", "text": "You’re a perfect mix of funny, chill, and intelligence"},
+    {"id": 25, "result": "shy", "text": "You’re shy and reserved!"}
+  ]
 }
