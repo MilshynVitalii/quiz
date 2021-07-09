@@ -11,9 +11,125 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   max-width: 678px;
-  margin: 0 auto;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 40px 20px 0;
+  min-height: 80vh;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("https://media.istockphoto.com/vectors/kitchen-seamless-pattern-vector-background-vector-id475511846?k=6&m=475511846&s=612x612&w=0&h=_iYGW-_GjgVmJw8hZvJ1-mZbw-I8Wm3pzDskSTbj8B8=")
+    no-repeat center;
+  background-size: cover;
+  z-index: -10;
+}
+
+.start {
+  border: 3px solid rgb(0, 128, 0);
+  border-radius: 5px;
+  background-color: #b1d6ad;
+  color: rgb(0, 128, 0);
+  padding: 20px 80px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0 auto 25px;
+  text-align: center;
+  width: 80%;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.steps-count {
+  font-weight: 700;
+  text-align: right;
+}
+
+.question-block {
+  align-self: stretch;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.answer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 20px);
+  height: 150px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgba(31, 109, 0, 0.3);
+  cursor: pointer;
+}
+
+.answer-0,
+.answer-1,
+.answer-2,
+.answer-3 {
+  background-color: rgba(55, 194, 0, 0.8);
+}
+
+.link-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.link-button.disabled {
+  background-color: rgb(143, 199, 255);
+  pointer-events: none;
+}
+
+.link-button_result {
+  background-color: green;
+}
+
+.link-button_result.disabled {
+  background-color: rgba(0, 172, 0, 0.562);
+  pointer-events: none;
+}
+
+.result {
+  text-align: center;
+}
+
+.result-head {
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.result-text {
+  font-size: 24px;
 }
